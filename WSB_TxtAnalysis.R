@@ -143,7 +143,7 @@ cmpr_line + scale_color_manual(values=c('brown2', '#8c8c8c'))
 setwd("~/Desktop/WSB_Case")
 
 # load data
-text <- read.csv("CASE_gme.csv")
+text <- read.csv("WSB_GME_data.csv")
 
 # renaming columns for functions
 names(text)[1] <- 'doc_id'
