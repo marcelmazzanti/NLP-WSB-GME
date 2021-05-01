@@ -33,6 +33,8 @@ library(grid)
 
 
 # custom Functions
+
+# lower all text
 tryTolower <- function(x){
   # return NA when there is an error
   y = NA
@@ -43,7 +45,8 @@ tryTolower <- function(x){
     y = tolower(x)
   return(y)
 }
-
+                       
+# clean text: urls, stopwords, punctuation and numbers
 cleanCorpus<-function(corpus, customStopwords){
   corpus <- tm_map(corpus, content_transformer(qdapRegex::rm_url)) 
   corpus <- tm_map(corpus, content_transformer(tryTolower))
@@ -61,18 +64,20 @@ cleanCorpus<-function(corpus, customStopwords){
 #################
 # OBTAINING VALUES AND PLOTTING STOCKS
 
-# setting period of interest
+# setting period of interest for the stocks
 start = as.Date('2021-01-10') 
 end = as.Date('2021-02-02')
 
 # getting stocks indexes of interest
+# GME stock data                      
 getSymbols('GME', src='yahoo', from = start, to = end)
-
+                       
+# S&P500 stock data 
 getSymbols('^GSPC', src='yahoo', from = start, to = end)
 
 
 
-# data frame for GME data
+# dataframe for GME data
 gme_df <- data.frame(Date=index(GME), coredata(GME))
 
 
@@ -353,7 +358,7 @@ plotWV %>%
 #################
 # SENTIMENT ANALYSIS
 
-# polarity lexicon
+# polarity lexicon (afinn)
 afinn <- get_sentiments(lexicon = c("afinn"))
 
 # adding words to lexicon to adjust to WSB slang
@@ -391,10 +396,10 @@ sentPlot <- sentTemp %>%
   theme_minimal()+
   theme(axis.title.x=element_blank(), axis.text.x=element_blank())
   
-
+# display plot
 sentPlot
 
-# plotting two figures together to compare
+# plotting two figures together to compare (after cleaning grid)
 grid.newpage()
 grid.draw(rbind(ggplotGrob(sentPlot), ggplotGrob(commPlot), size = "last"))
 
