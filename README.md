@@ -16,5 +16,5 @@ https://github.com/marcelmazzanti/NLP-WSB-GME/blob/0021a8dc7ea61e084690b9ccbf142
 
 
 
-
+![Alt text](https://github.com/marcelmazzanti/NLP-WSB-GME/blob/0021a8dc7ea61e084690b9ccbf142df9c1bf6f08/stock-compare.png "Stock Comparison")
 
