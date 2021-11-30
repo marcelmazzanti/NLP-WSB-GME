@@ -32,4 +32,14 @@ Performance related words are also used to indicate the relative size, growth or
 ![Alt text](https://github.com/marcelmazzanti/NLP-WSB-GME/blob/5b192be65baf5cec9e003d8050045071db15fd6e/stock-terms.png "Terms and Volume")
 
 
+Buy and hold, which are among the most used terms, seem to be used in a similar amount and in the same occasions. The moments when the two terms peak are, when the volume of transactions is going down and, comparing the dates with the price change, we can see in these moments are also when people are selling the most. Hence, the words are used as a consequence to persuade investors not to sell, but just to buy or hold on.
+
+
+
+## Sentiment Analysis
+
+A sentiment analysis was conducted to understand if the language used expressed negative or positive emotional intent, using the Afinn Score Package in R. A score for terms that are often seen in catch phrases is manually implemented to increase relevance of the analysis (e.g. “to the moon”, is present in 13% of all the comments). The following graph defines the average sentiment over time and how it changes from positive to negative:
+
+
+
 
