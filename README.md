@@ -29,3 +29,7 @@ It is already clear that the language is often aggressive and sarcastic, and a v
 Performance related words are also used to indicate the relative size, growth or shrink of investments made. The majority of the terms, however, seem to be focused on trading suggestions on whether to hold, buy or sell the stock. It is interesting to see when those terms are used the most over the period when the large volume of transactions kept the stock fluctuating:
 
 
+![Alt text](https://github.com/marcelmazzanti/NLP-WSB-GME/blob/5b192be65baf5cec9e003d8050045071db15fd6e/stock-terms.png "Terms and Volume")
+
+
+
