@@ -54,15 +54,9 @@ Two very different emotional outcomes are indicated, both understandable conside
 <img width="580" alt="volatility" src="https://user-images.githubusercontent.com/77210085/143981746-710565ca-77de-4c71-8438-ccccf4a06e05.png">
 
 
-This incredible volatility and the incresing risk of loss caused by regulators, explain the peaks in negative emotions expressed, as a consequence of a sitback in the stock price. 
+This incredible volatility and the incresing risk of loss caused by regulators, explain the peaks in negative emotions expressed, as a consequence of a sitback in the stock price. Moreover, it is likely that the expression of more positive emotions appeared earlier, when the stock was in the process of rising.
 
 
+## Conclusions
 
-
-The nature of the stock market makes it difficult for any prediction to be reliable
-
-Increase in positive sentiment and expression of positive emotions might be an indicator of collective excitement and larger shares buying volumes
-
-When words such as “hold” start to be used more fear and anxiety are likely to take over resulting in higher selling volumes
-
-
+The nature of the stock market makes it difficult for any prediction to be reliable, according to this analysis however, large increases in positive sentiment and expression of positive emotions might be an indicator of collective excitement, translated in large buying volumes of shares. When words such as “hold” start to be used more, fear and anxiety are likely to take over, resulting in higher selling volumes.
