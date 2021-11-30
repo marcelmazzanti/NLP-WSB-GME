@@ -13,7 +13,7 @@ The data comes directly from the Reddit Forum API for WSB, selecting posts conta
 Over the selected period the GME stock was incredibly volatile, rising with a very steep trend. To give a reference, we can see the change in price compared to the S&P500 index throughout that period:
 
 
-<img width="5800" alt="stock-compare" src="https://user-images.githubusercontent.com/77210085/143980886-aeb7a949-f6d0-41d2-a367-336823d4ffe0.png">
+<img width="580" alt="stock-compare" src="https://user-images.githubusercontent.com/77210085/143980886-aeb7a949-f6d0-41d2-a367-336823d4ffe0.png">
 
 
 
@@ -56,5 +56,13 @@ Two very different emotional outcomes are indicated, both understandable conside
 
 This incredible volatility and the incresing risk of loss caused by regulators, explain the peaks in negative emotions expressed, as a consequence of a sitback in the stock price. 
 
+
+
+
+The nature of the stock market makes it difficult for any prediction to be reliable
+
+Increase in positive sentiment and expression of positive emotions might be an indicator of collective excitement and larger shares buying volumes
+
+When words such as “hold” start to be used more fear and anxiety are likely to take over resulting in higher selling volumes
 
 
