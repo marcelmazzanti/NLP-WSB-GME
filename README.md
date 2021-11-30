@@ -48,4 +48,6 @@ The sentiment sarts with a highly positive score, but is defined by very few com
 
 Going deeper on the analysis of the comments, a specific package can also be used to map the emotions expressed with the words used on the blog. Limiting the dataset to the days before the stock plunged (in order to avoid outliers toward sadness and fear) the following map highlights these emotions:
 
-![Alt text](
+![Alt text](https://github.com/marcelmazzanti/NLP-WSB-GME/blob/86a8d3d04aead1e8e40854602ab94ab0a8942bd5/emotions.png "Emotions")
+
+
