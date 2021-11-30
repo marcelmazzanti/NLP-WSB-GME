@@ -12,7 +12,7 @@ The data comes directly from the Reddit Forum API for WSB selecting posts contai
 
 Over the selected period the GME stock was incredibly volatile, rising with a very steep trend. To give a reference, here we see the change in price compared to the S&P500 index throughout that period.
 
-https://github.com/marcelmazzanti/NLP-WSB-GME/blob/main/stock-compare.png
+!(https://github.com/marcelmazzanti/NLP-WSB-GME/blob/main/stock-compare.png)
 
 
 
