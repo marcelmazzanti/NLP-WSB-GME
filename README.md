@@ -10,11 +10,15 @@ The data comes directly from the Reddit Forum API for WSB selecting posts contai
 
 ## Stock Performance
 
-Over the selected period the GME stock was incredibly volatile, rising with a very steep trend. To give a reference, here we see the change in price compared to the S&P500 index throughout that period.
-
-https://github.com/marcelmazzanti/NLP-WSB-GME/blob/0021a8dc7ea61e084690b9ccbf142df9c1bf6f08/stock-compare.png
-
+Over the selected period the GME stock was incredibly volatile, rising with a very steep trend. To give a reference, we can see the change in price compared to the S&P500 index throughout that period:
 
 
 ![Alt text](https://github.com/marcelmazzanti/NLP-WSB-GME/blob/0021a8dc7ea61e084690b9ccbf142df9c1bf6f08/stock-compare.png "Stock Comparison")
+
+
+
+## Frequent Terms
+
+To assess the kind of lexicon used, the first thing we check is the terms that are used the most within the comments:
+
 
