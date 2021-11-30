@@ -22,3 +22,6 @@ Over the selected period the GME stock was incredibly volatile, rising with a ve
 To assess the kind of lexicon used, the first thing we check is the terms that are used the most within the comments:
 
 
+![Alt text](https://github.com/marcelmazzanti/NLP-WSB-GME/blob/c30b7407fc37edf76ee2858e95fb288ff25e215d/frequent-terms.png "Frequent Terms")
+
+It is already clear that the language is often aggressive and sarcastic, and that a very specific slang is used.
