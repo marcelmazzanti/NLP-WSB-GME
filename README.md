@@ -38,8 +38,14 @@ Buy and hold, which are among the most used terms, seem to be used in a similar 
 
 ## Sentiment Analysis
 
-A sentiment analysis was conducted to understand if the language used expressed negative or positive emotional intent, using the Afinn Score Package in R. A score for terms that are often seen in catch phrases is manually implemented to increase relevance of the analysis (e.g. “to the moon”, is present in 13% of all the comments). The following graph defines the average sentiment over time and how it changes from positive to negative:
+A sentiment analysis was conducted to understand if the language used expressed negative or positive emotional intent, using the Afinn Score Package in R. A score for terms that are often seen in catch phrases is manually implemented to increase relevance of the analysis (e.g. “to the moon”, is present in 13% of all the comments). The following graphs define the average sentiment over time and how it changes from positive to negative, also in relation with the total number of comments:
 
 
+![Alt text](https://github.com/marcelmazzanti/NLP-WSB-GME/blob/e2e5e1c7bbcfc44bf32e61f3094f108c2433a918/afinn.png "Afinn Score")
 
 
+The sentiment sarts with a highly positive score, but is defined by very few comments, as the number of contributors increases toward the most hectic days the sentiment decreases sharply. Averagin around a slighlty neutral and negative score, a positive peak can be found the day before the stock price rises substantially.
+
+Going deeper on the analysis of the comments, a specific package can also be used to map the emotions expressed with the words used on the blog. Limiting the dataset to the days before the stock plunged (in order to avoid outliers toward sadness and fear) the following map highlights these emotions:
+
+![Alt text](
