@@ -50,4 +50,7 @@ Going deeper on the analysis of the comments, a specific package can also be use
 
 ![Alt text](https://github.com/marcelmazzanti/NLP-WSB-GME/blob/86a8d3d04aead1e8e40854602ab94ab0a8942bd5/emotions.png "Emotions")
 
+Two very different emotional outcomes are indicated, both understandable if the level of involvement that 
+
+<img width="536" alt="emotions" src="https://user-images.githubusercontent.com/77210085/143980702-9e587891-5593-4531-87d4-3a1fd53f7cbc.png">
 
