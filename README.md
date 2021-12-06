@@ -1,10 +1,10 @@
 # Natural Language Processing Analysis 
 ### Could Hedge Funds predict the Game Stop short squeeze by analysing Reddit's comments?
 
-Retail investors are representing an increasing market risk for Hedge Funds, a dimostration was the case of GameStop (GME), when in January 2021 losses larger than 50% on large short-selling postions were recorded for many funds.
-It all started from a Reddit blog called Wall Street Bets (WSB), where small investors deliberately decided to act bullish on $GME to contrast big funds. 
+Retail investors are representing an increasing market risk for big funds, as dimostrated by the case of GameStop (GME), when in January 2021 losses larger than 50% on important short-selling postions were recorded for many funds.
+It all started from a Reddit blog called Wall Street Bets (WSB), where small investors deliberately decided to act bullish on $GME to contrast the funds position. 
 
-This analysis aims at identifying early indicators within the  not-always-technical language used in the blog, in order to give insights on how to avoid or exploit similar future scenarios.
+This analysis aims at identifying early indicators within the language used in the blog, in order to give insights on how to avoid or exploit similar scenarios in the future.
 The data comes directly from the Reddit Forum API for WSB, selecting posts containing GME and sub-setted to frame the period of interest (January 10th to February 2nd).
 
 
@@ -24,20 +24,20 @@ To assess the kind of lexicon used, the first thing we check is the terms that a
 <img width="580" alt="frequent-terms" src="https://user-images.githubusercontent.com/77210085/143980911-7ae13b37-11c6-41e8-8a5a-4a45f5327eeb.png">
 
 
-It is already clear that the language is often aggressive and sarcastic, and a very specific slang is used. apart from technical financial terms, we notice words like "moon" because as the stock value was going up, the motto in the blog became "to the moon", indicating excitement for the high returns implied.
+It is already clear that the language is often aggressive and sarcastic, and a very specific slang is used. Apart from technical financial terms, we notice words like "moon" as the motto in the blog became "to the moon", indicating excitement for the rising in value of the stock.
 
-Performance related words are also used to indicate the relative size, growth or shrink of investments made. The majority of the terms, however, seem to be focused on trading suggestions on whether to hold, buy or sell the stock. It is interesting to see when those terms are used the most over the period when the large volume of transactions kept the stock fluctuating:
+Performance related words are also used to indicate the relative size, growth or shrinking of investments made. The majority of the terms, however, seem to be focused on trading suggestions on whether to hold, buy or sell the stock. It is interesting to see when those terms are used the most over the period when the large volume of transactions kept the stock fluctuating:
 
 <img width="580" alt="stock-terms" src="https://user-images.githubusercontent.com/77210085/143980935-caa01143-5049-4c8d-99f9-f5e181c0570f.png">
 
 
-Buy and hold, which are among the most used terms, seem to be used in a similar amount and in the same occasions. The moments when the two terms peak are, when the volume of transactions is going down and, comparing the dates with the price change, we can see in these moments are also when people are selling the most. Hence, the words are used as a consequence to persuade investors not to sell, but just to buy or hold on.
+Buy and hold, which are among the most used terms, seem to be used in a similar amount and in the same occasions. The moments when the two terms peak are, when the volume of transactions is going down and, comparing the dates with the price change, we can see in these moments are also when people are selling the most. Hence, the words are used as a consequence to persuade investors not to sell, but just to hold on.
 
 
 
 ## Sentiment Analysis
 
-A sentiment analysis was conducted to understand if the language used expressed negative or positive emotional intent, using the Afinn Score Package in R. A score for terms that are often seen in catch phrases is manually implemented to increase relevance of the analysis (e.g. “to the moon”, is present in 13% of all the comments). The following graphs define the average sentiment over time and how it changes from positive to negative, also in relation with the total number of comments:
+A sentiment analysis was conducted to understand if the language used expressed negative or positive emotional intent, using the Afinn Score Package in R. A score for terms that are often seen in catch phrases is manually implemented to increase relevance of the analysis (e.g. “to the moon”, is present in 13% of all the comments). The following graphs defines the average sentiment over time and how it changes from positive to negative, also in relation with the total number of comments:
 
 <img width="580" alt="afinn" src="https://user-images.githubusercontent.com/77210085/143980956-8b6f5c62-6f42-4b07-88e2-d150c505a83d.png">
 
